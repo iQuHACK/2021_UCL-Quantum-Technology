@@ -15,12 +15,12 @@ import dimod
 
 exactsolver = dimod.ExactSolver()
 
-Q = {('R','R'): -1, 
+Q = {('B','B'): -1,
      ('G','G'): -1, 
-     ('B','B'): -1,
-     ('R','G'): 2,
-     ('R','B'): 2,
-     ('G','B'): 2}
+     ('R','R'): -1, 
+     ('B','R'): 2,
+     ('B','G'): 2, 
+     ('G','R'): 2}
 
 results = exactsolver.sample_qubo(Q)
 
