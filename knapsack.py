@@ -129,7 +129,8 @@ def solve_knapsack(costs, weights, weight_capacity, sampler=None):
 if __name__ == '__main__':
 
     data_file_name = sys.argv[1] if len(sys.argv) > 1 else "data/large.csv"
-    weight_capacity = float(sys.argv[2]) if len(sys.argv) > 2 else 70
+    #weight_capacity = float(sys.argv[2]) if len(sys.argv) > 2 else 70
+    weight_capacity = float(sys.argv[2]) if len(sys.argv) > 2 else 50
 
     # parse input data
     df = pd.read_csv(data_file_name, names=['cost', 'weight'])
