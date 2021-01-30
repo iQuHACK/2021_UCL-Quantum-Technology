@@ -1,3 +1,5 @@
+""" Graph partioning for N=4 clique"""
+
 # Copyright 2020 D-Wave Systems, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,7 +15,7 @@
 # limitations under the License.
 import dimod
 
-GAMMA = 10
+GAMMA = 25
 
 exactsolver = dimod.ExactSolver()
 
