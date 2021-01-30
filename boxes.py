@@ -13,16 +13,16 @@
 # limitations under the License.
 import dimod
 
-GAMMA = 25
+GAMMA = 10
 
 exactsolver = dimod.ExactSolver()
 
-Q = {('X1','X1'): 15,
-     ('X2','X2'): 19, 
-     ('X3','X3'): 17, 
-     ('X1','X2'): GAMMA,
-     ('X1','X3'): GAMMA, 
-     ('X2','X3'): GAMMA}
+Q = {('X1','X1'): 17 - 3*GAMMA,
+     ('X2','X2'): 21 - 3*GAMMA, 
+     ('X3','X3'): 19 - 3*GAMMA, 
+     ('X1','X2'): 2*GAMMA,
+     ('X1','X3'): 2*GAMMA, 
+     ('X2','X3'): 2*GAMMA}
 
 results = exactsolver.sample_qubo(Q)
 
