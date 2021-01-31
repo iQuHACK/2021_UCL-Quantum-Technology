@@ -2,9 +2,12 @@
 
 ## Abstract
 
-We attempted to take the travelling salesman algorithm and use it for a holiday planner whilst running it on the DQM server.  We found that we had underestimated the task 
-because we needed to write the algorithm again taking into account the detailed Hamiltonian on Lucas's paper and we ran out of time.  We attempted to modify the 
-graph partitioning example from yesterday with one colour and different Lagrange variables but this was not successful.
+We attempted to take the travelling salesman algorithm and use it for a holiday planner whilst running it on the DQM server.  
+
+Our idea was to use a Quantum Computer to plan our next holiday!
+
+We found that we had underestimated the task because we needed to write the algorithm again taking into account the detailed Hamiltonian on Lucas's paper 
+and we ran out of time.  We attempted to modify the graph partitioning example from yesterday with one colour and different Lagrange variables but this was not successful.
 
 We deliberately chose a project we could not find on the internet as we did not want to just copy someone elses code.  
 
